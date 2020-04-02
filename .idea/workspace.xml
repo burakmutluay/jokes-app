@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39e4117a-6678-4925-a871-1f11342b273c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__guru_springframework_chuck_norris_for_actuator_0_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/burak/jokesapp/controllers/ChuckNorrisJokeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/burak/jokesapp/services/ChuckNorrisJokeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/burak/jokesapp/services/JokeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/chucknorris.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/burak/jokesapp/controllers/ChuckNorrisJokeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/burak/jokesapp/controllers/ChuckNorrisJokeController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +19,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -39,6 +36,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -68,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585830699484</updated>
-      <workItem from="1585830703682" duration="1535000" />
+      <workItem from="1585830703682" duration="2818000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1585830942227</created>
@@ -84,16 +82,27 @@
       <option name="project" value="LOCAL" />
       <updated>1585831146434</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Services and controllers are created. Closes #2 #3">
+      <created>1585832298918</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1585832298918</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Added required dependency. Closes #1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added required dependency. Closes #1" />
+    <MESSAGE value="Services and controllers are created. Closes #2 #3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Services and controllers are created. Closes #2 #3" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="512" y="109" width="374" height="575" key="#com.intellij.ide.util.MemberChooser" timestamp="1585831311552">
@@ -104,13 +113,13 @@
       <screen x="43" y="27" width="1323" height="741" />
     </state>
     <state x="554" y="288" width="290" height="216" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/43.27.1323.741/1366.0.1280.1024@43.27.1323.741" timestamp="1585830840830" />
-    <state x="322" y="27" width="754" height="741" key="CommitChangelistDialog2" timestamp="1585832277302">
+    <state x="322" y="27" width="754" height="741" key="CommitChangelistDialog2" timestamp="1585832298781">
       <screen x="43" y="27" width="1323" height="741" />
     </state>
-    <state x="322" y="27" width="754" height="741" key="CommitChangelistDialog2/43.27.1323.741/1366.0.1280.1024@43.27.1323.741" timestamp="1585832277302" />
-    <state x="299" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1585831156378">
+    <state x="322" y="27" width="754" height="741" key="CommitChangelistDialog2/43.27.1323.741/1366.0.1280.1024@43.27.1323.741" timestamp="1585832298781" />
+    <state x="299" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1585832300675">
       <screen x="43" y="27" width="1323" height="741" />
     </state>
-    <state x="299" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/43.27.1323.741/1366.0.1280.1024@43.27.1323.741" timestamp="1585831156378" />
+    <state x="299" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/43.27.1323.741/1366.0.1280.1024@43.27.1323.741" timestamp="1585832300675" />
   </component>
 </project>
